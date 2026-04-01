@@ -14,7 +14,7 @@ GeminiCode is an AI-powered code generation web application that lets you build 
 
 ## Tech Stack
 
-- **Next.js 14** (App Router)
+- **Next.js 16** (App Router)
 - **TypeScript**
 - **Tailwind CSS**
 - **Google Gemini AI** (`gemini-1.5-flash`)

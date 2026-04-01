@@ -76,7 +76,8 @@ export default function Home() {
           files: newFiles,
         },
       ]);
-    } catch (_err) {
+    } catch (err) {
+      console.error("Generation error:", err);
       setMessages((prev) => [
         ...prev,
         {
